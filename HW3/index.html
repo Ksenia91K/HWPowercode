@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FormsHW</title>
+</head>
+<body>
+   <form action="#" method="get" name="client-form">
+    <label>Ваше имя <br>
+         <input type="text" name="firstName"
+      placeholder="Введите имя">
+       </label> <br>
+       <label>Ваша фамилия <br>
+         <input type="text" name="lastName"
+      placeholder="Введите фамилию">
+       </label> <br>
+       <label> Ваш email <br>
+            <input type="email" name="email" placeholder="Введите email" ><br>
+       </label><br>
+       <label> Ваша дата рождения <br>
+           <input type="date" name="date"><br>
+       </label><br>
+       <label> Ваш телефон <br>
+            <input type="tel" pattern="[o-9]{9}" placeholder="Введите телефон"><br>
+       </label><br>
+       <div>
+           <h4> Выберите размер</h4>
+           <label> 
+           <input type="radio" name="size" value="xs"> XS <br>
+           </label>
+          <label>
+          <input type="radio" name="size" value="s"> S <br>
+          </label>
+           <label>
+            <input type="radio" name="size" value="m"> M <br>
+           </label>
+          <label>
+          <input type="radio" name="size" value="l"> L <br>
+          </label>
+       </div>
+       <div>
+           <h4>Дополнительные опции</h4>
+            <label>
+            <input  type="checkbox" name="options" value="delivery">Доставка <br>
+            </label>
+            <label>
+            <input  type="checkbox" name="options" value="payment">Оплата картой <br>
+            </label>
+            <label>
+            <input  type="checkbox" name="options" value="call back">Перезвонить мне <br>
+            </label>
+       </div>
+       <div>
+           <h4>выберите цвет</h4>
+           <select name="colors">
+               <option value="red">Красный</option>
+               <option value="blue">Синий</option>
+               <option value="white">Белый</option>
+               <option value="black">Черный</option>
+           </select>
+       </div><br>
+        <input type="submit" value="Отправить">
+   </form>
+    
+</body>
+</html>
