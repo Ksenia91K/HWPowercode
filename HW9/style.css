@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    border: 1px solid;
+}
+.desk{
+    display: flex;
+   
+}
+.square-dark{
+     background: #5B0000;
+    position: absolute;
+    color: white;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    
+}
+.square{
+    width: 12.5%;
+    position: relative;
+   
+}
+.square:before{
+    content: '';
+    display: block;
+    padding-top: 100%;
+}
+.square:nth-child(2n) .square-dark{
+    background-color: #EAD0D0;
+}
+
+
+.desk-right{
+    flex-direction: row-reverse;
+     display: flex;
+  
+}
+.checker-white{
+    background-color: white;
+    border-radius: 100%;
+    width: 90%;
+    height: 90%;
+    margin: 5%
+}
+
+.checker-black{
+    background-color: black;
+    border-radius: 100%;
+    width: 90%;
+    height: 90%;
+    margin: 5%
+}

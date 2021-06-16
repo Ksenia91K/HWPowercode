@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #2F2F2F; }
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  max-height: 30px;
+  text-align: center;
+  margin-top: 20px; }
+  .menu__product {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 19px;
+    width: 40%; }
+  .menu__element {
+    font-size: 15px;
+    width: 15%; }
+  .menu input {
+    background-color: #2F89DD;
+    border-radius: 5px;
+    color: white;
+    font-size: 15x; }
+
+.main {
+  display: flex;
+  color: white; }
+  .main__text {
+    width: 100%;
+    font-size: 45px;
+    padding-top: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+    text-align: center; }
+
+.link a {
+  display: inline-block;
+  color: #51ACFF;
+  margin-left: 400px;
+  padding-top: 50px;
+  text-decoration: none; }
+
+/*# sourceMappingURL=style.css.map */
